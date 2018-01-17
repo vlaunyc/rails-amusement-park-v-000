@@ -1,0 +1,5 @@
+<%= form_tag ({controller: 'sessions', action: 'create', method: 'post'}) do %>
+  Name: <input name=user[name]><br /><br />
+  Password: <input type="password" name=user[password]><br /><br />
+  <input type=submit value='Sign In'>
+<% end %>
