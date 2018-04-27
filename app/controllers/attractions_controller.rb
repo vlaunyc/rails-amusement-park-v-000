@@ -53,3 +53,5 @@ class AttractionsController < ApplicationController
       params.require(:attraction).permit(:name, :min_height, :tickets, :nausea_rating, :happiness_rating)
     end
 end
+
+# adding a line to submit pull request again... please turn green...
