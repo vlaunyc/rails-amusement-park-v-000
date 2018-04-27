@@ -30,3 +30,5 @@ RSpec.describe Attraction, :type => :model do
   end
 
 end
+
+# adding a line to submit pull request again... please turn green...
